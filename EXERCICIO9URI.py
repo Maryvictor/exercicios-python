@@ -1,0 +1,5 @@
+nome =str(input("NOME"))
+salario =float(input("SALARIO"))
+vendas =float(input("VENDAS"))
+total = salario + (0.15*vendas)
+print("TOTAL = R$ ","{:.2f}".format(total))

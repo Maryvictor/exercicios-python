@@ -1,0 +1,6 @@
+n = int(input("NUMBER FUNCIONARIO"))
+t = int(input("HORAS"))
+st = float(input("QUANTO GANHA POR HORA"))
+salary = (t*st)
+print("NUMBER = {}".format(n))
+print("SALARY = R$","{:.2f}".format(salary))

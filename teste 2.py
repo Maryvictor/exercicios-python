@@ -1,0 +1,12 @@
+print ("Código Especificação   Preço")
+print (" 1     Salgado         R$4,00")
+print (" 2     Cachorro Quente R$6,00")
+print (" 3     Hamburguer      R$8,00")
+print (" 4     X Burguer       R$10,00")
+print (" 5     Refrigerante    R$4,50")
+total=float(0)
+cont = "Sim"
+i = int(1)
+print ("Deseja fazer um pedido?")   
+item = int(input("Entre com o código do item desejado:"))
+Q = int(input("Entre com a quantidade de item:"))
